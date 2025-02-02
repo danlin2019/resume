@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Noto Sans TC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    @apply text-[1.0625rem] text-[#1f1f1f] font-[500];
+  }
+  #root {
+    @apply overflow-hidden;
+  }
+  nav button {
+    @apply text-gray-500 transition duration-300 hover:text-regal-orange
+    text-gray-500 transition duration-300 hover:text-regal-orange;
+  }
+}
+@layer utilities {
+  .web-link i::before {
+    background-image: url("./assets/link.png"); /* 圖片路徑 */
+  }
+}
+.kv {
+  font-weight: 400;
+}
+
+#particles-js {
+  @apply absolute left-0 top-0 w-full h-full z-[-1];
+}
+
+.linesBG {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  .bLines {
+    width: 9.09%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #f2f2f2;
+    position: relative;
+  }
+}
+
+.experience {
+  position: relative;
+  @apply mb-20;
+
+  &::after {
+    @apply absolute top-[11px] left-[10px] bg-gray-300;
+    content: "";
+    width: 4px;
+    height: 100%;
+  }
+
+  li {
+    @apply relative flex py-[60px] pb-[15px] pl-[50px];
+
+    &::before,
+    &::after {
+      content: "";
+      @apply absolute bg-white rounded-full border-[5px] border-orange-500;
+      padding: 6px;
+      z-index: 1;
+    }
+
+    &::before {
+      @apply top-[10px] left-0;
+    }
+
+    &::after {
+      @apply hidden;
+    }
+
+    &:last-child::after {
+      @apply block bottom-[-13px] left-0;
+    }
+  }
+
+  .time {
+    @apply text-[#949494] text-[14px] mb-[5px];
+  }
+
+  .experience-img {
+    @apply w-[50px] h-[50px] overflow-hidden rounded-full bg-gray-200 mr-[15px];
+
+    img {
+      @apply w-full h-full object-cover;
+    }
+  }
+
+  .experience-detailed {
+    @apply w-[calc(100%-50px)];
+
+    h2 {
+      @apply font-bold text-[#103c5c];
+    }
+
+    p {
+      @apply font-normal;
+    }
+  }
+}
+
+// index work
+.w-list {
+  @apply relative;
+  &::after {
+    transition: 0.4s;
+    opacity: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1d1d1de3;
+    top: 0;
+    left: 0;
+  }
+  .works-text {
+    @apply text-2xl text-white flex justify-center items-center absolute w-full h-full top-0 left-0 z-[1];
+  }
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.img-photo {
+  position: relative;
+  height: 0;
+  padding-bottom: 59%;
+  overflow: hidden;
+  img {
+    transition: 0.4s;
+    object-fit: cover;
+    object-position: left top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
+
+.in-work .w-list {
+  &:first-child {
+    @apply bg-regal-blue p-6 pt-9 lg:p-20;
+    &::after {
+      @apply hidden;
+    }
+    &:hover img {
+      @apply scale-[1];
+    }
+    a {
+      @apply flex flex-col lg:flex-row;
+    }
+    .img-photo {
+      @apply w-full lg:w-[52%] pb-[59%] lg:pb-[34.5%];
+
+      &:hover img {
+        @apply scale-[1.05];
+      }
+    }
+    .works-text {
+      @apply block static flex-wrap w-full lg:w-[40%] text-[#ccc] opacity-100 py-5 lg:py-0 lg:px-9 justify-normal;
+      h3 {
+        @apply opacity-100 text-left text-white text-[6.5vw] md:text-[4vw] lg:text-[2.5vw] leading-[1.2] font-bold mb-6;
+        br {
+          @apply hidden;
+        }
+      }
+      .work-content {
+        @apply text-[3.8vw] md:text-[2.5vw] lg:text-[1.05vw] text-white leading-[1.5];
+      }
+    }
+  }
+}
+.pro-list {
+  .work-content {
+    display: none;
+  }
+  .w-list {
+    @apply w-[50%] lg:w-[20%];
+  }
+}
+
+.tag {
+  @apply mb-8;
+  span,
+  li {
+    @apply inline-block bg-orange-500 text-white rounded px-2 py-0.5 mr-2 mb-2;
+  }
+  li {
+    @apply text-sm  md:text-base;
+  }
+}
+
+.article-contet {
+  @apply w-[90%] max-w-[1024px] m-auto pt-28 md:pt-36 pb-24 animate-fadeIn text-[0.9375rem] md:text-lg;
+  h2 {
+    @apply text-[6vw] lg:text-4xl font-bold mb-8 text-regal-blue border-l-[6px] md:border-l-8 pl-4;
+  }
+}
