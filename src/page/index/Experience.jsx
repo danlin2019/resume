@@ -74,7 +74,8 @@ const Experience = () => {
       </ul>
       <div className="w-full text-center mb-16 lg:mb-36">
           <NavLink
-            to="/about"
+            to="http://danportfolio.url.tw/dan/resume/dan_resume.pdf"
+            target="_blank"
             className="text-white bg-regal-blue rounded-[99em] py-3 px-9 m-auto hover:bg-regal-orange transition duration-300"
           >
             查看詳細履歷
