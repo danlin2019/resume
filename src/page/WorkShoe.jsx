@@ -15,7 +15,7 @@ function workShoe() {
   return (
     <>
       <div className="article-contet">
-          <h2>專案：鞋子購物車後台系統 & 前台頁面切版串接</h2>
+          <h2>Side Project：購物車後台系統 & 前台頁面</h2>
           <img src={workImg1}  className="mb-4"/>
           <h3 className="mb-2 font-bold text-gray-500 text-xl">使用技術</h3>
           <div className="tag text-sm">

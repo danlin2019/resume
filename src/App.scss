@@ -47,8 +47,7 @@
 }
 
 .experience {
-  position: relative;
-  @apply mb-20;
+  @apply relative mb-20 lg:mb-32;
 
   &::after {
     @apply absolute top-[11px] left-[10px] bg-gray-300;

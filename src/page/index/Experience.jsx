@@ -72,7 +72,7 @@ const Experience = () => {
             </div>
           </li>
       </ul>
-      <div className="w-full text-center mb-16 lg:mb-36">
+      {/* <div className="w-full text-center mb-16 lg:mb-36">
           <NavLink
             to="http://danportfolio.url.tw/dan/resume/dan_resume.pdf"
             target="_blank"
@@ -80,7 +80,7 @@ const Experience = () => {
           >
             查看詳細履歷
           </NavLink>
-        </div>
+        </div> */}
     </>
   );
 };

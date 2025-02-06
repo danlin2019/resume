@@ -26,7 +26,7 @@ function Nav() {
   return(
     <header className={`${ isScroll ? 'bg-[#ffffffed] shadow-md' : ''} w-full fixed p-3 py-3 lg:p-6 z-20 transition duration-300`}>
         <Link to="/" data-discover="true">
-          <div className="flex justify-center items-center h-12 w-12 rounded-[99em] bg-regal-blue text-white text-xl dark:bg-white dark:text-black">K</div>
+          <div className="flex justify-center items-center h-12 w-12 rounded-[99em] bg-regal-blue text-white text-xl">D</div>
         </Link>
         <nav className="absolute top-[50%] right-3 lg:right-6 transform -translate-y-1/2">
           <ul className="flex flex-row space-x-8 text-base lg:text-xl">

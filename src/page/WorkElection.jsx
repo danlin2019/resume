@@ -17,6 +17,7 @@ function WorkElection() {
           <h3 className="mb-2 font-bold text-gray-500 text-xl">使用技術</h3>
           <div className="tag text-sm">
             <span>Vue</span>
+            <span>Javascript</span>
             <span>D3.js</span>
             <span>SCSS</span>
             <span>Axios</span>
@@ -40,19 +41,18 @@ function WorkElection() {
           <div className="mb-10">
 
             <h3 className="mb-2 font-bold text-gray-500 text-xl">主要功能</h3>
-            <h4 className="font-semibold text-gray-700 mb-2">互動展示：</h4>
+            <h4 className="font-semibold text-gray-700 mb-2">左側選單與地圖連動：</h4>
             <ul className="list-disc pl-7 mb-6">
               <li>左側選單可選擇縣市與區域查看詳細選舉資訊</li>
               <li>左側選項與右側地圖動態連動</li>
-              <li>地圖支持放大、縮小、拖曳，方便瀏覽</li>
-              <li>滑鼠懸停於地圖上可顯示詳細的即時數據</li>
+              <li>地圖支持放大、縮小、拖曳，方便瀏覽，滑鼠懸停於地圖上可顯示詳細的即時數據</li>
             </ul>
             <h4 className="font-semibold text-gray-700 mb-2">多語系與分享功能：</h4>
             <ul className="list-disc pl-7 mb-6">
-              <li>中、英、日三種語言切換</li>
+              <li>建立中、英、日翻譯json，依據參數做語系切換</li>
               <li>提供分享功能，允許用戶複製網址並分享當前畫面</li>
             </ul>
-            <h4 className="font-semibold text-gray-700 mb-2">總統與立委選舉的多層次展示：</h4>
+            <h4 className="font-semibold text-gray-700 mb-2">總統與立委選舉頁面切換：</h4>
             <ul className="list-disc pl-7 mb-6">
               <li>總統頁面：即時統計候選人得票數，並視覺化得票比例</li>
               <li>立委＆不分區立委頁面：顯示各選區候選人得票數，並提供選區地圖分布</li>
@@ -61,7 +61,7 @@ function WorkElection() {
             </ul>
             <h4 className="font-semibold text-gray-700 mb-2">API 數據處理：</h4>
             <ul className="list-disc pl-7 mb-6">
-              <li>使用 Axios 與後端 API 串接，60秒定期更新選舉數據</li>
+              <li>使用 Axios 與後端 API 串接，設定每60秒刷新選舉數據</li>
             </ul>
             <div>
               <img src={workpresidentImg1} alt="" />

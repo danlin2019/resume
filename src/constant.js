@@ -46,7 +46,7 @@ export const PROJECT_LIST = [
     id: 1,
     img: workImg1,
     link: "/work/shoe",
-    description: "專案：鞋子購物車後台系統<br />& 前台頁面切版串接",
+    description: "Side Project：購物車後台系統<br />& 前台頁面",
     tagTitle:'使用技術',
     tag:['React','Vite','Tailwind CSS','Firebase','React-loading-skeleton','Axios'],
     content:"獨立完成此網頁開發，涵蓋了從功能規劃、資料庫設計到前端設計與配色的完整開發流程。專案使用 React 框架構建前後台，結合 Tailwind CSS 做樣式開發，具備 React 基礎知識，使用 Firebase 平台進行 API 開發與資料管理，狀態管理則採用 Redux Toolkit，以確保應用程式狀態的一致性。",

@@ -17,7 +17,7 @@ function WorkMopevent() {
         <h3 className="mb-2 font-bold text-gray-500 text-xl">使用技術</h3>
         <div className="tag text-sm">
           <span>Jquery</span>
-          <span>HTML</span>
+          <span>Pug</span>
           <span>SCSS</span>
           <span>Axios</span>
         </div>
