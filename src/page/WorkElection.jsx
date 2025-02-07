@@ -63,6 +63,11 @@ function WorkElection() {
             <ul className="list-disc pl-7 mb-6">
               <li>使用 Axios 與後端 API 串接，設定每60秒刷新選舉數據</li>
             </ul>
+            <h4 className="font-semibold text-gray-700 mb-2">埋設 GA：</h4>
+            <ul className="list-disc pl-7 mb-6">
+              <li> Google Analytics（GA4）與 Google Tag Manager（GTM）埋設與事件追蹤</li>
+            </ul>
+            
             <div>
               <img src={workpresidentImg1} alt="" />
               <img src={workpresidentImg2} alt="" />

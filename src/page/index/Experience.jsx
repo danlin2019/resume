@@ -7,7 +7,7 @@ import exImg5 from "../../assets/experience-5.png";
 const Experience = () => {
   return (
     <>
-      <ul className="experience 6">
+      <ul className="experience">
           <li>
             <div className="experience-img">
               <img src={exImg5} />
@@ -16,12 +16,12 @@ const Experience = () => {
               <div className="time">2021~2024</div>
               <h2>關鍵頻論網 前端工程師</h2>
               <p>
-                進入關鍵評論網擔任前端工程師，主要負責官網的維護與管理平台功能的優化工作，並與後端團隊合作進行資料串接。在這段期間，開始觸碰到前後端分離的開發模式，進一步啟發對前端技術深度探索與思考。
+                進入關鍵評論網擔任前端工程師，主要負責品牌維護與平台功能優化以及活動網的工作，並與後端團隊合作進行資料串接。在這段期間，開始碰觸更多有關資料面的部分，進一步啟發對前端技術深度探索與思考。
               </p>
             </div>
           </li>
           <li>
-            <div className="experience-img">
+            <div className="experience-img !bg-white">
               <img src={exImg4} />
             </div>
             <div className="experience-detailed">
@@ -72,15 +72,6 @@ const Experience = () => {
             </div>
           </li>
       </ul>
-      {/* <div className="w-full text-center mb-16 lg:mb-36">
-          <NavLink
-            to="http://danportfolio.url.tw/dan/resume/dan_resume.pdf"
-            target="_blank"
-            className="text-white bg-regal-blue rounded-[99em] py-3 px-9 m-auto hover:bg-regal-orange transition duration-300"
-          >
-            查看詳細履歷
-          </NavLink>
-        </div> */}
     </>
   );
 };

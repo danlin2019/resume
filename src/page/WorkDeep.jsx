@@ -1,6 +1,9 @@
 import WorkList from "./index/WorkList";
 import { useEffect } from "react";
-import workMp4 from "../assets/deep.mp4";
+import workImg from '../assets/05_deep_1.jpg'
+import workImg1 from '../assets/deep_1.png'
+import workImg2 from '../assets/deep_2.png'
+import workImg3 from '../assets/deep_3.png'
 
 
 function WorkDeep() {
@@ -12,20 +15,13 @@ function WorkDeep() {
       <div className="article-contet">
           <h2>官網：道法法律事務所 Deep & Far Attorneys-at-Law</h2>
         <div className="w-full m-auto mb-4">
-            <video
-              src={workMp4}
-              controls
-              autoPlay
-              loop
-              muted
-              className="w-full h-auto"
-            ></video>
+            <img src={workImg} alt="" />
           </div>
           <h3 className="mb-2 font-bold text-gray-500 text-xl">使用技術</h3>
           <div className="tag text-sm">
             <span>Javascript</span>
             <span>Jquery</span>
-            <span>Gsap</span>
+            <span>GSAP</span>
             <span>Swiper</span>
             <span>SCSS</span>
             <span>CSS Animate</span>
@@ -57,10 +53,12 @@ function WorkDeep() {
             </ul>
             <h4 className="font-semibold text-gray-700 mb-2">滾動切換效果：</h4>
             <ul className="list-disc pl-7 mb-6">
-              <li>Kv 使用 Gsap 製作滾動換畫面效果，為用戶提供流暢的滾動體驗</li>
-              <li>所有頁面的動態效果均由Gsap觸發，統一動畫節奏</li>
+              <li>Kv 使用 GSAP 製作滾動換畫面效果，為用戶提供流暢的滾動體驗</li>
+              <li>所有頁面的動態效果均由GSAP觸發，統一動畫節奏</li>
             </ul>
-
+            <img src={workImg1} className="mb-10"/>
+            <img src={workImg2} className="mb-10" />
+            <img src={workImg3} />
           </div>
           <div>
             <div className="w-full text-center">

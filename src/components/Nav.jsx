@@ -40,11 +40,6 @@ function Nav() {
                 WORKS
               </button>
             </li>
-            <li>
-              <button>
-                RESUMES
-              </button>
-            </li>
           </ul>
         </nav>
 

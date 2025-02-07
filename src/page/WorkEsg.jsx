@@ -1,6 +1,7 @@
 import WorkList from "./index/WorkList";
 import { useEffect } from "react";
 import workMp4 from "../assets/esg_video.mp4";
+import WorkImg from "../assets/06_esg_1.png"
 
 function WorkEsg() {
   useEffect(() => {
@@ -55,9 +56,9 @@ function WorkEsg() {
               使用 CSS 的 stroke-dasharray 和
               stroke-dashoffset，結合動畫時間差，實現 KV 中建築物的動態跑線效果
             </li>
-            <li>所有頁面的動態效果均由 Gsap 控制，確保動畫流暢且節奏一致</li>
+            <li>頁面的動態效果均由GSAP處理</li>
           </ul>
-
+          <img src={WorkImg} alt="" />
         </div>
         <div>
           <div className="w-full text-center">

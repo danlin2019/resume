@@ -9,7 +9,7 @@ const Kv = ({ onScrollTo }) =>{
         <br />
         Welcome to my website
       </h1>
-      <div className="absolute bottom-7 left-[50%] flex justify-center items-center rounded-[99em] m-auto w-14 h-14 lg:w-16 lg:h-16 bg-[#f67410] text-white text-3xl animate-bounceUpDown cursor-pointer" 
+      <div className="absolute bottom-16 lg:bottom-7 left-[50%] flex justify-center items-center rounded-[99em] m-auto w-14 h-14 lg:w-16 lg:h-16 bg-[#f67410] text-white text-3xl animate-bounceUpDown cursor-pointer" 
       onClick={onScrollTo}>
         <FaAngleDown />
       </div>

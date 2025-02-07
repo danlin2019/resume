@@ -1,6 +1,5 @@
 import WorkList from "./index/WorkList";
 import workImg1 from "../assets/03_supamop_1.jpg";
-import workMp4 from "../assets/supamop.mp4";
 import { useEffect } from "react";
 
 
@@ -19,6 +18,7 @@ function WorkMopevent() {
           <span>Jquery</span>
           <span>Pug</span>
           <span>SCSS</span>
+          <span>css Animate</span>
           <span>Axios</span>
         </div>
         <div>
@@ -27,9 +27,9 @@ function WorkMopevent() {
         </div>
         <br />
       
-        <h3 className="mb-2 font-bold text-gray-500 text-xl">Web Link</h3>
+        <h3 className="mb-2 font-bold text-gray-500 text-xl">Web Link(活動已下架 此為DEMO)</h3>
         <div>
-          <a className="hover:text-regal-orange transition duration-300" href="https://www.360mopevent.com.tw/" target="_blank">https://www.360mopevent.com.tw/</a>
+          <a className="hover:text-regal-orange transition duration-300" href="http://danportfolio.url.tw/supamopevent/demo/" target="_blank">http://danportfolio.url.tw/supamopevent/demo/</a>
         </div>
         <br />
         <div className="mb-10">
@@ -47,7 +47,7 @@ function WorkMopevent() {
           </ul>
           <h4 className="font-semibold text-gray-700 mb-2">圈數累積與排名：</h4>
           <ul className="list-disc pl-7 mb-6">
-            <li>玩家可選擇立即登錄圈數，輸入姓名與 E-mail 後提交 API，將圈數記錄到後端</li>
+            <li>玩家可選擇立即登錄圈數，輸入姓名與 E-mail 打API，將資訊記錄傳送到資料庫</li>
             <li>點擊「繼續累積」進行第二次遊戲，時間延長至 30 秒，系統會自動帶入上次輸入的姓名與 E-mail，並累計玩家的圈數。</li>
             <li>排行榜顯示前 100 名玩家的排名，激勵玩家挑戰更高圈數</li>
           </ul>
@@ -57,16 +57,6 @@ function WorkMopevent() {
             <li>扭蛋與籤詩的隨機化設計，提供多層次的遊戲體驗，增加活動的趣味性</li>
             <li>排名機制激勵玩家持續參與，通過圈數累積與排行榜提升用戶黏著度</li>
           </ul>
-          <div className="w-full lg:w-[55%] m-auto">
-            <video
-              src={workMp4}
-              controls
-              autoPlay
-              loop
-              muted
-              className="w-full h-auto"
-            ></video>
-          </div>
         </div>
         <div>
           <div className="w-full text-center">

@@ -23,15 +23,15 @@ function workShoe() {
             <span>Vite</span>
             <span>Tailwind CSS</span>
             <span>Firebase</span>
-            <span>React-loading-skeleton</span>
-            <span>React-hook-form</span>
+            <span>React Toolkit</span>
             <span>Axios</span>
           </div>
           <div>
-            獨立完成此網頁開發，涵蓋了從功能規劃、資料庫設計到前端設計與配色的完整開發流程。專案使用 React 框架構建前後台，結合 Tailwind CSS 做樣式開發，具備 React 基礎知識，並結合 Firebase 開發 API，使用 Redux Toolkit 進行狀態管理。
+          獨立完成這項 Side Project，從功能規劃、資料庫設計到前端設計與配色的完整開發流程。<br/>使用 React + Vite 構建前後台，自行研究 Firebase，開發所需 API 並處理後端數據，樣式採用 Tailwind CSS，使用 Redux Toolkit 進行狀態管理，具備 React 基礎知識。
+
           </div>
           <br />
-          <h3 className="mb-2 font-bold text-gray-500 text-xl">登入資訊</h3>
+          <h3 className="mb-2 font-bold text-gray-500 text-xl">登入帳密</h3>
           帳號: testadmin@gmail.com
           <br />
           密碼: admin123

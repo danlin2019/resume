@@ -43,11 +43,6 @@ function WorkGuide() {
               <li>使用者可從地圖或下拉選單選擇目標城市和選區</li>
               <li>選擇後，網址會動態更新為帶有參數的深鏈結，例如：?city=nwt&area=3&twe=1</li>
             </ul>
-            <h4 className="font-semibold text-gray-700 mb-2">獎勵與互動：</h4>
-            <ul className="list-disc pl-7 mb-6">
-              <li>玩家從首頁點擊「轉好運」進入遊戲，遊戲時間為 10 秒。結束後，玩家可獲得一顆扭蛋</li>
-              <li>使用者可從地圖或下拉選單選擇目標城市（六都）和選區（如新北市第三選區）</li>
-            </ul>
             <h4 className="font-semibold text-gray-700 mb-2">選區候選人列表展示：</h4>
             <ul className="list-disc pl-7 mb-6">
               <li>進入選區後，依據條件載入該選區的候選人清單</li>
